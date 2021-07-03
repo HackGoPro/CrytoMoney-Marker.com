@@ -1,0 +1,31 @@
+@media screen and (max-width:411px) {
+    .column{
+        float:left;
+        height:230px;
+        width:240px;
+        background-color:white;
+        box-shadow:0px 4px 14px 0px rgba(0,0,0,0.24); 
+        border-radius:30px;
+        margin:15px;
+        padding:10px;
+    }
+    .row{
+        padding-left:55px;
+    }
+
+    .second-klass{
+        padding-left:60px;
+        width:300px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .row{
+        padding-left:34px;
+    }
+
+    .second-klass{
+        padding-left:20px;
+        width:300px;
+    }
+}
